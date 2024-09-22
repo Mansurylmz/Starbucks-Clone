@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #000;    
+}
+nav {
+    width: 100%;
+    padding: 20px;
+    
+    
+    
+  }
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.navbar-list ul li a{
+    color: #000;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+.navbar-list ul li a:hover{
+    color: #0d6241;
+}
+.navbar-logo img{
+    height: 50px;
+    height: 50px;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-list ul{
+    display: flex;
+    gap: 15px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-img{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.navbar-buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar-buttons .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:18px;
+    text-align: center;
+    padding: 7px 16px;
+    cursor: pointer;
+}
+.btn-join{
+    background-color: #000;
+    color: white;
+}
+.top{
+    background-color:#0d6241;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.box-inner h2{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 6px;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+.box-inner p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.center{
+    background-color:#d51231;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    
+    
+}
+.section-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+
+}
+.text-xl{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 600;
+    color: white;
+    
+}
+.text-md {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+.btn-light-outline{
+    background-color: transparent;
+    padding: 2px 7px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: white;
+}
+.section-bc{
+    background-color: #0d6241;
+}
+.section-bottom{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bottom-title{
+    padding: 40px 0;
+}
+.bottom-1{
+    background-color:#ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    
+}
+.bottom-2{
+    background-color:#0d6241;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    
+}
+
+.bottom-img img{
+    width: 100%;
+}
+
+.footer-center{
+    margin: 40px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.footer-bottom{
+    background: linear-gradient(to right, #137a00, #000100);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.footer-bottom span{
+    color: #d51231;
+}
+.footer-icons a img{
+    width: 35px;
+    height: 35px;
+    margin: 0 15px;
+}
+
+@media screen and (max-width:765px) {
+    .center{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navbar-right .navbar-img{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1020px) {
+    .center-1,.section-bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+@media screen and (max-width:925px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .section-bottom{
+        margin-bottom: 360px;
+
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .top .box-inner h2{
+        font-size: 25px;
+    }
+    .navbar .navbar-list{
+        display: none;
+    }
+    .center h2{
+        font-size: 40px;
+    }
+    .center p{
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width:1575px) {
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+

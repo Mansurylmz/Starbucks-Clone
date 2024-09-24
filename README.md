@@ -1,4 +1,4 @@
-# Starbucks-Clone
+# Starbucks_Clone
 Bu proje, HTML ve CSS kullanılarak yapılan bir Starbucks web sitesi klonudur. Starbucks'ın modern ve temiz tasarımını baz alarak oluşturulmuştur.
 
 # Özellikler
